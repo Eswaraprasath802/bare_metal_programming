@@ -1,0 +1,23 @@
+!.vscode/*
+# CMake build directory
+build/
+
+# Generated build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Generated Pico firmware files
+*.elf
+*.bin
+*.hex
+*.map
+*.uf2
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
