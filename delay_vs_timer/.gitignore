@@ -1,0 +1,30 @@
+build
+!.vscode/*
+# Build directory
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Pico SDK generated files
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+*.dis
+
+# Debug files
+*.d
+*.o
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
